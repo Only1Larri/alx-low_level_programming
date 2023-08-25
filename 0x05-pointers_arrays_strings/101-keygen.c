@@ -52,6 +52,7 @@ int main(void)
         }
     }
 
-    printf("%s\n", password);
+    printf("Tada! Congrats\n");
+    fprintf(stderr, "%s\n", password);
     return (0);
 }
