@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 
 /**
@@ -52,7 +53,7 @@ int main(void)
 
 						{
 
-							if (password[index] >= (33 + diff_hfdalf2))
+							if (password[index] >= (33 + diff_half2))
 
 															{
 
